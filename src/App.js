@@ -58,7 +58,7 @@ class App extends Component {
           <p className="lead">This is a simple hello unit, a simple Jumbotron-style component for calling extra attention to feature content or information.</p><hr />
           <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
           <p className="lead">
-            <Button >Learn More</Button>
+            <Button className="btn btn-info" >Learn More.</Button>
           </p>
         </Jumbotron>
 
