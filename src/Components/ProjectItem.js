@@ -13,7 +13,7 @@ class ProjectItem extends Component {
       <li className="Projects">
         <strong>{this.props.project.name} : </strong>
          {this.props.project.category} 
-        <Button className="btn mt-1 mx-1 py-0" color="danger" outline  block={false} onClick={this.deleteProject.bind(this, this.props.project.id)}> Remove </Button>
+        <Button className="btn btn-sm mx-1 px-1 py-0" color="danger" outline  block={false} onClick={this.deleteProject.bind(this, this.props.project.id)}> Remove </Button>
       </li>
       </div>
     );

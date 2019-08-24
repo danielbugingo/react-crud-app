@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
-import { Container, Row, Col, Card, CardImg, CardTitle, CardSubtitle, CardBody, CardText, Button, Jumbotron, Alert, Fade } from 'reactstrap';
+import { Card, CardTitle, CardBody } from 'reactstrap';
 //import PropTypes from 'prop-types';
 
 class Projects extends Component {

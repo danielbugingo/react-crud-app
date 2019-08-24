@@ -11,7 +11,8 @@ class AddProject extends Component {
   }
 
   static defaultProps = {
-    categories: ['Web Design', 'Web Development', 'Mobile Development']
+    categories: ['Web Design', 'Web Development', 
+    'Mobile Development', 'Data Science', 'Machine Learning']
   }
 
   handleSubmit(e){
@@ -40,8 +41,8 @@ class AddProject extends Component {
         <h3>User Details</h3>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <div>
-            <label>name</label> <br />
-            <input type="text" ref="name" />
+            <label>Name</label> <br />
+            <input required type="text" ref="name" />
           </div>
           <div>
             <label>category</label> <br />
